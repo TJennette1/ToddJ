@@ -1,0 +1,539 @@
+ <!DOCTYPE HTML>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107196030-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+
+  gtag('config', 'UA-107196030-1', {
+    send_page_view: false
+  });
+
+  // gtag('config', '');
+   // gtag('config', 'UA-107196030-1', { 'optimize_id': 'GTM-WHF9HCS'});
+
+</script>		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/dropzone.css" />
+		<link rel="stylesheet" href="assets/css/jquery.modal.min.css">
+		<link rel="stylesheet" href="assets/css/uploadform30f4.css?v=3" />
+
+		<script src="assets/js/jquery.min.3.3.1.js"></script>
+		<script src="assets/js/jquery.modal.min.js"></script>
+		<script src="assets/js/js.cookie.min.js"></script>
+		<script src="assets/js/bootstrap-tooltip.js"></script>
+		<script src="../kit.fontawesome.com/4c6e962026.js" crossorigin="anonymous" defer></script>
+		
+			<style>
+				#upload-resume-embed .preview-container {
+					min-width:600px;
+				}
+
+
+				#upload-resume-embed .fileuploader #upload-label svg {
+					    text-align: center;
+					    display: block;
+					    color: #71b5a036;
+					    height: 115px;
+					    font-size: 9.5rem;
+					    position: absolute;
+					    top: -12px;
+					    left: 0;
+					    right: 0;
+					    margin-right: auto;
+					    margin-left: auto;
+					    color: #dfd0fe;
+			    }
+
+
+
+			    .priv-note {
+			    	position: absolute;
+			    	top: 5px;
+			    	right: 5px;
+			    }
+
+
+			.priv-note .tooltiptext {
+			  visibility: hidden;
+			  width: 320px;
+			  background-color: black;
+			  color: gray;
+			  text-align: center;
+			  border-radius: 6px;
+			  padding: 10px;
+			  position: absolute;
+			  z-index: 1;
+			  top: 150%;
+			  left: 50%;
+			  margin-left: -260px;
+			  font-size: 14px;
+			  /*font-family: "Cerebri Sans", sans-serif;*/
+			  font-weight: 300;
+			  background: white;
+			  border: 1px solid #7c44ef;
+			  text-align: left;
+			  line-height: 1.4;
+
+
+			}
+
+			.priv-note .tooltiptext::after {
+			  content: "";
+			  position: absolute;
+			  bottom: 100%;
+			  right: 20%;
+			  margin-left: -5px;
+			  border-width: 5px;
+			  border-style: solid;
+			  /*border-color: transparent transparent black transparent;*/
+			  border-color: transparent transparent #7c44ef transparent;
+			}
+
+			.priv-note:hover .tooltiptext {
+			  visibility: visible;
+			}
+
+
+			.priv-note-visible-styling {
+    color: #8652f3;
+    /* background: #f0eafa; */
+    border-radius: 5px;
+    background: transparent;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Cerebri Sans',sans-serif;
+    border: 1px solid #b090f7;
+    cursor: pointer;
+}
+
+				 #upload-resume-embed .fileuploader #upload-label svg:hover {
+				    color: #ddd;
+				    font-size: 9.4rem;
+				    -webkit-transition: width 2s;
+				}
+
+				#upload-resume-embed .upload-resume-embed-container h2 {
+				     font-family: "Cerebri Sans", sans-serif;
+				    color: #fff;
+				    font-size: 0.9em;
+				    text-transform: uppercase;
+				    line-height: 2em;
+				    letter-spacing: 2.2px;
+				    margin-bottom: 0px;
+				    font-weight: 600;
+				}
+
+				#upload-resume-embed .guidelines-embed-container {
+					text-align: center;
+				}
+
+
+				#upload-resume-embed .upload-resume-embed-container .upload-form-career-level-tag {
+				    font-family: "Cerebri Sans", sans-serif;
+				    color: #fff;
+				    font-size: 0.8em;
+				    line-height: 2em;
+				    letter-spacing: 1.2px;
+				    display: inline-block;
+				    cursor: pointer;
+				    border-radius: 8px;
+				    background: #f0eafa;
+				    padding: 5px 35px;
+				    color: #7c44ef;
+				    font-weight: 600;
+				    /* position: absolute; */
+				    letter-spacing: 0.2px;
+				}
+
+				.personalization-tag-container {
+					position: absolute;
+				    bottom: 20px;
+				    left: 0;
+				    margin-left: auto;
+				    right: 0;
+				    margin-right: auto;
+				}
+
+			   #upload-resume-embed .upload-resume-embed-container .upload-form-career-level-tag:hover {
+			   	background: #e5d8fc;
+			   }	
+
+			   #upload-resume-embed .guidelines-embed-container p {
+				     font-family: "Cerebri Sans", sans-serif;
+				    color: #fff;
+				    font-size: 0.9em;
+				    line-height: 2em;
+				    letter-spacing: 0.6px;
+				    
+				    font-weight: 300;
+				    margin-top: 20px;
+				    margin-bottom: 20px;
+				}
+
+
+
+				#upload-resume-embed .upload-guidelines {
+					max-width: 750px;
+				}
+
+				#upload-resume-embed .upload-guidelines h4 {
+					text-align: left;
+					 /*font-family: "Cerebri Sans", sans-serif;*/
+				    color: #fff;
+				    font-size: 0.9em !important;
+				    line-height: 2em;
+				    letter-spacing: 0.6px;
+				    
+				    font-weight: 300;
+				}
+
+				#upload-resume-embed .upload-guidelines svg {
+					font-size:0.7em;
+
+				}
+
+				#upload-resume-embed span.whattodo {
+					font-size: 0.9em;
+					font-family: "Cerebri Sans", sans-serif;
+					top: 183px;
+					color: #7c44ef;
+				}
+
+				#upload-resume-embed .fileuploader {
+					height: 300px;
+					/*max-width: 700px;*/
+					max-width: none;
+					width: auto;
+					/*background:#f3f6fe;*/
+					background:#f6f7ff;
+				}
+				.title-of-upload-form {
+					padding: 25px;
+				}
+
+				.fileuploader #upload-label {
+					top: 10%;
+				}
+
+				#upload-resume-embed span.whattodo {
+				    top: 152px;
+			   }
+
+				.upload-resume-embed-container .title-of-upload-form h1 {
+					font-family: "Cerebri Sans", sans-serif;
+					/*font-size: 1.2em;*/
+				    font-size: 20px;
+				    font-weight: 600;
+				    text-align: left;
+				    color: #1a1550;
+				    letter-spacing: 0.2px;
+				    line-height: 1.6;
+				    text-align: left;
+				    padding-bottom: 0px;
+			        padding-top: 10px;
+				}
+
+				.upload-resume-embed-container {
+					background: #fff;
+				    /*border: 2px solid #e7c0ff;*/
+			        border: 2px solid #ddd0f8;
+				    border-radius: 8px;
+				    /*padding: 25px;	*/
+				}
+			    
+
+				.title-of-upload-form h3 {
+			        font-weight: 400;
+			    	text-align: left;
+				    font-size: 0.9em;
+				    font-size: 16px;
+				    color: #6f6d6d;
+				    font-family: "Cerebri Sans";
+				    padding-bottom: 0px;
+				    line-height: 1.7;
+				    padding-top: 10px;
+				}
+				.resume-review-tag {
+					 padding: 5px 15px;
+				    background: #dafdda;
+				        color: #7c44ef;
+				        background: #f0eafa;
+				    font-weight: 600;
+				    font-size: 12px;
+				    font-family: "Cerebri Sans", sans-serif;
+				    text-transform: uppercase;
+				    display: inline-block;
+				    border-radius: 5px;
+				    letter-spacing: 0.5px;
+				    margin-bottom: 15px;
+				}
+				
+
+				.rest-of-upload-form {
+					position: relative;
+				}
+
+				@media only screen and (max-width: 601px) {
+					.fileuploader {
+					    width: 100%;
+					}
+				}
+
+			</style>
+			<!-- Header -->
+				<div id="upload-resume-embed">
+
+
+					<section class="upload-resume-embed-container" style="/*background: #fff*/;">
+			                  <div class="title-of-upload-form">
+			                  		<div class="resume-review-tag">Limited Time Offer: Free Resume score</div>
+			                    	<h1>How strong is your resume?</h1>
+			                    	<!-- <h1>Get expert feedback on your resume, instantly.</h1> -->
+			                    	<h3>Get an instant, unbiased score of your resume, for free. Upload your resume below and we'll score it on key criteria recruiters and hiring managers look for — in 30 seconds.</h3>
+			                   </div>
+			                 <div class="rest-of-upload-form">
+			                 <main class="col s12">             
+                <!--teste dropzone com preview-->
+			                  <div style="text-align:center;">
+			                  	      <!-- Preview collection of uploaded documents -->
+			                    <div class="preview-container">
+			                      <div class="collection card" id="previews">
+			                        <div class="collection-item clearhack valign-wrapper item-template" id="zdrop-template">
+			                          <div class="left pv zdrop-info" data-dz-thumbnail>
+			                            <div>
+			                              <span data-dz-name></span> <span data-dz-size></span>
+			                            </div>
+			                            <div class="progress">
+			                              <div class="determinate" style="color:white;font-size:1.2em;font-weight: 400;" data-dz-uploadprogress>...</div>
+			                            </div>
+			                            <div class="dz-error-message"><span data-dz-errormessage></span></div>
+			                          </div>
+
+			                          <div class="secondary-content actions">
+			                            <a href="#!" data-dz-remove class="btn-floating ph red white-text waves-effect waves-light"><i class="material-icons white-text">clear</i></a>
+			                          </div>
+			                        </div>
+			                      </div>
+			                    </div>
+			                    <!-- Uploader Dropzone -->
+			                    <form action="https://resumeworded.com/upload.php" id="zdrop" class="fileuploader center-align">
+			                      <div id="upload-label" style="width: 200px;">
+			                        <!-- <i class="fa fa-cloud-upload" aria-hidden="true"></i> -->
+			                        <i class="fas fa-file-upload"></i>
+			                        <!-- <i class="material-icons">cloud_upload</i> -->
+			                      </div>
+			                      <span class="whattodo">Click the button above or drop your resume in here.
+			                      <br/>
+			                      English resumes in PDF only. Max 2MB file size.</span>
+			                    </form>
+
+			              
+			                    <div class="personalization-tag-container">
+			                    	<a href="#personalization-quiz" rel="modal:open" id="career-level-btn-on-embed-form"><div class="upload-form-career-level-tag">Career Level: <span id="career-level-id">Mid-level</span> (<u>Change</u>)</div></a>
+			                    </div>
+			                    <div class="priv-note">
+			                    	<span class="priv-note-visible-styling"><i class="fas fa-lock"></i>&nbsp;&nbsp; 100% privacy</span><span class="tooltiptext">We're committed to your privacy. Your resume will be scanned securely to give you confidential feedback instantly. Your resume is completely private to you and can be deleted at any time.</span>
+			                    </div>
+			                  </div>
+			                </main> 
+			                </div>
+
+						</section>
+
+
+				</div>
+
+               
+
+
+		<!-- Scripts -->
+			<!-- <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
+			<script src="assets/js/dropzone.js"></script>
+
+
+
+
+	<div id="personalization-quiz" class="modal onboarding-modals-small">
+
+
+	    <div class="onboarding-modal-center">
+	    	<div class="onboarding-modal-colored-header">
+		        <h1>What best describes you?</h1>
+		        <h2>
+		        	Our AI will use this to personalize your resume review to you. 
+		        </h2>
+	    	</div>
+
+	        <div class="career-level-container">
+	        	<div class="career-level-single" data-level="entrylevel">
+	        		<h1><i class="fas fa-user-graduate"></i>&nbsp;&nbsp; Entry-level</h1>
+	        		<h2>Students &amp; recent graduates. Less than 2 years of work experience.</h2>
+	        		<div class="choose-this-personalization-btn">
+	        			Choose
+	        		</div>	
+	        	</div>
+	        	<div class="career-level-single" data-level="midlevel">
+	        		<h1><i class="fas fa-user"></i>&nbsp;&nbsp; Mid-level</h1>
+	        		<h2>You have between 2 and 10 years of relevant work experience.</h2>
+	        		<div class="choose-this-personalization-btn">
+	        			Choose
+	        		</div>	
+	        	</div>
+	        	<div class="career-level-single" data-level="seniorlevel">
+	        		<h1><i class="fas fa-user-tie"></i>&nbsp;&nbsp; Senior-level</h1>
+	        		<h2>You have more than 10 years of relevant work experience.</h2>
+	        		<div class="choose-this-personalization-btn">
+	        			Choose
+	        		</div>	
+	        	</div>
+	        </div>
+	        	
+	        <p>Choose just one option to continue. Don't worry; you can change your career level later.</p>
+
+	        
+	    </div>
+	</div>
+
+	<script>
+		// $("#personalization-quiz").modal({
+	 //       showClose: true
+	 //    });
+	 	
+	 	// TODO: also check if the user has a record in the database of the career level - if so, then don't show modal
+
+
+		if (typeof Cookies.get('personalization_career_level') === 'undefined'){
+
+			// $("#personalization-quiz").modal({
+		 //        showClose: false
+		 //      });
+		} else {
+			var career_level_slug = Cookies.get('personalization_career_level');
+			if (career_level_slug=="entrylevel") {
+				$("#career-level-id").text("Entry-level");
+			} else if (career_level_slug=="seniorlevel") {
+				$("#career-level-id").text("Senior-level");
+			} else {
+				$("#career-level-id").text("Mid-level");
+			}
+	 		
+		}
+
+	 	$(".career-level-single").click(function(){
+	 		var career_level = $(this).data("level");
+	 		Cookies.set('personalization_career_level', career_level, { expires: 365 });
+	 		$.modal.close();
+	 		var set_category_text = $(this).find('h1').text().trim();
+	 		$("#career-level-id").text(set_category_text);
+	 	});
+
+
+		
+	</script>
+
+
+			<script>
+			$(document).ready(function(){
+
+				// var get_page_url = window.location.href;
+				var get_page_url = window.parent.location.pathname;
+
+	initFileUploader("#zdrop");
+		function initFileUploader(target) {
+			var previewNode = document.querySelector("#zdrop-template");
+
+			previewNode.id = "";
+			var previewTemplate = previewNode.parentNode.innerHTML;
+			previewNode.parentNode.removeChild(previewNode);
+
+
+			var zdrop = new Dropzone(target, {
+				url: 'workers/no-login-smr-upload-script.php',
+				acceptedFiles: ".pdf,.docx",
+                maxFiles:1,
+				maxFilesize:2,
+				previewTemplate: previewTemplate,
+				previewsContainer: "#previews",
+				clickable: "#upload-label",
+				dictInvalidFileType: "Sorry, please upload your PDF or .docx instead. PDFs are the most common format for resume screeners and using them ensures your resume's layout is preserved. If you need to convert your document to PDF, you can do it instantly using an online converter (just Google search for 'convert doc to pdf online'!).",
+				dictFileTooBig: "Sorry, your file is too big. Please ensure it's under 2 MB. You can do this by removing all graphics and images from your document, and then re-generating your PDF.",
+				dictFallbackMessage: "Sorry, it looks like there may be a browser incompatibility or network error. Please use either the latest versions of Chrome or Firefox to ensure your browser can securely upload files.",
+				dictResponseError: "Sorry, it looks like there may be a browser incompatibility. Please use either the latest versions of Chrome or Firefox to ensure your browser can securely upload files.",
+
+				accept: function(file, done) {
+				    if (file.size < 2) {
+				    	alert("Your PDF file is 0KB in size and wasn't generated correctly. Please re-generate your resume PDF and try re-uploading the file.");
+				      return;
+				    } 
+
+				    // removed the docx confirrmation modal; no need for it; just added a bunch of '0's so this if never happens
+				    if ((file.name).toLowerCase().indexOf('docx000000000000') >= 0) {
+				    	// docx uploaded
+				    	var parts = (file.name).split('.');
+						if (parts[parts.length - 1] == "docx"){
+							var r = confirm("You uploaded a Word file (.docx). We can convert your Word file into a PDF, but it may look different to your PC (e.g. fonts, margins). \n\nChoose 'OK' to continue with your Word file. Or 'Cancel' to upload a PDF instead.");
+							if (r == true) {
+								$('.dz-error-message span').text("Converting your Word file into PDF. Please wait...");
+							  done(); 
+							} else {
+							  return;
+							}
+						} else { done(); }
+				    } else { 
+				    	done(); 
+				    }
+				  }
+			});
+
+			zdrop.on("addedfile", function(file) { 
+				$('.preview-container').css('visibility', 'visible');
+			});
+
+			zdrop.on("totaluploadprogress", function (progress) {
+				var progr = document.querySelector(".progress .determinate");
+					if (progr === undefined || progr === null)
+							return;
+
+						progr.style.width = progress + "%";
+					});
+
+					zdrop.on('dragenter', function () {
+						$('.fileuploader').addClass("active");
+					});
+
+					zdrop.on('dragleave', function () {
+						$('.fileuploader').removeClass("active");			
+					});
+
+					zdrop.on('drop', function () {
+						$('.fileuploader').removeClass("active");	
+					});
+
+			zdrop.on('sending', function(file, xhr, formData){
+				var given_career_level = Cookies.get('personalization_career_level');
+            	formData.append('personalization_career_level', given_career_level);
+            	formData.append('get_current_page_url', get_page_url);
+      		});
+			
+			zdrop.on("success", function(file) { 
+				try {
+					gtag('event', "upload_resume_to_smr_widget", {
+		              'event_category': "upload_resume_widget_smr",
+		              'event_label': "Uploaded Resume to SMR Widget (with text)"
+		            });
+		        }
+				catch (e) {
+				   console.log("Error saving stat to GA. GA not found.");
+				}
+				
+				setTimeout(function(){window.parent.location.href='workers/no-login-smr-signup-page.php'},1500);
+				 
+			});	
+		  }
+
+	});
+ </script>
