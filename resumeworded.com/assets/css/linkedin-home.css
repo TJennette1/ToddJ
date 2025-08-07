@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+#linkedin-top h1 {
+    color: #fff;
+    font-size: 2.1em;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    line-height: 1.5;
+    border-bottom: 1px #486494 !important;
+
+  }
+
+
+#linkedin-top h4 {
+    /*color: #f5f5f5;*/
+    color: #d1e0f1;
+    font-size: 1em;
+    /*font-family: "Cerebri Sans";*/
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    line-height: 2em;
+    /*color: ;*/
+
+  }
+
+  #linkedin-top .button-nosignup-subtitle {
+    color: #d1e0f1;
+    font-size: 0.8em;
+    /*font-family: "Cerebri Sans";*/
+    letter-spacing: 1.2px;
+    font-weight: 300;
+  }
+
+
+#linkedin-top strong {
+    /*color: #f5f5f5;*/
+    color: #d1e0f1;
+    font-size: 1em;
+    /*font-family: "Cerebri Sans";*/
+    letter-spacing: 1.4px;
+    font-weight: 400;
+    line-height: 2em;
+    /*color: ;*/
+
+  }
+
+#linkedin-top {
+    padding-top: 5em;
+    /*background-image: url(images/bg-img-opacity2.jpg);*/
+    /*background-size: cover;*/
+    /*min-height: 100vh;*/
+    min-height: 700px;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(45deg,#1d4d89 45%,#6e90f6 100%);*/
+    
+    /*background: linear-gradient(45deg,#163c6b 45%,#6e90f6 100%);*/
+    background: linear-gradient(35deg,#062d5f 56%,#18aaa4 100%);
+}
+
+
+.home-left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  text-align: left !important;
+  margin-right: 2em;
+  padding-left: 4em;
+
+}
+
+.home-right {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-left: 2em;
+  margin-right: 3em;
+}
+
+.home-right svg {
+  width: 100%;
+  margin-right: 3em;
+
+
+}
+
+
+.top-subtitle-linkedin {
+  margin-top: 1.7em;
+  margin-bottom: 2em;
+}
+
+.start-button {
+    /*border: 1px solid;*/
+    border: 0px solid;
+    border-radius: 5px;
+    /*background: rgba(0, 0, 0, 0.15);*/
+    background: #17af7d;
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 40px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+      /*font-weight: 400;*/
+  font-size: 1em;
+  padding-bottom: 10px;
+  letter-spacing: 0.7px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+    /*text-transform: uppercase;;*/
+    /*text-shadow: 0 1px 3px rgba(36,180,126,.4);*/
+}
+.start-button:hover {
+    /*border-color: rgba(255, 255, 255, 0.75) !important;*/
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        background: #19cf86;
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+.divider svg {
+    /*position: absolute;*/
+    left: 0;
+    /*bottom: -5px;*/
+    width: 100vw;
+    min-width: 800px;
+    margin-bottom: -10px;
+}
+
+.linkedin-feature-title h2 {
+  color: #fff;
+    font-size: 1.6em !important;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+
+  .home-left {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: left !important;
+
+}
+
+.home-right {
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+}  
+
+
+}
+
+.linkedin-features svg {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.linkedin-features ul {
+    list-style: none;
+    padding: 0;
+    /*padding-top: 2em;*/
+    /*padding-bottom: 2em;*/
+    margin: 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*box-shadow: 0 5px 70px 0 #000;*/
+    overflow: hidden;
+
+}
+
+
+.linkedin-features {
+  text-align: left;
+}
+
+.linkedin-features li {
+    flex: 0 1 100%;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    /*background: ;*/
+    /*border-bottom: 1px solid #edf2ff;*/
+    /*color: #fff;*/
+}
+
+.linkedin-features h4 {
+    color: #d1e0f1;
+    font-size: 0.9em;    
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    line-height: 2em;
+
+}
+
+
+@media (min-width: 640px) {
+.linkedin-features li {
+    flex: 0 1 50%;
+   /* margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;*/
+
+}
+
+
+
+.linkedin-features li:nth-child(odd) {
+    /*padding-right: 40px ;*/
+}
+ 
+.linkedin-features li:nth-child(even) {
+    /*padding-left: 40px;*/
+}
+
+
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 1500px) {
+#linkedin-top {
+  /*padding-left: 7em;
+  padding-right: 7em;*/
+  padding-top: 9em;
+}
+
+.home-left {
+  padding-left: 10em;
+}
+
+.home-right {
+ padding-right: 10em; 
+}
+
+
+}
+
+
+
+
+.overall-jumpto-questions {
+    /*border: 1px solid;*/
+    border: 0px solid;
+    border-radius: 5px;
+    /*background: rgba(0, 0, 0, 0.15);*/
+    background: rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 40px;
+    padding-top: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+      /*font-weight: 400;*/
+  font-size: 1em;
+  padding-bottom: 12px;
+  letter-spacing: 0.7px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+
+    /*text-transform: uppercase;;*/
+    /*text-shadow: 0 1px 3px rgba(36,180,126,.4);*/
+}
+
+
+.overall-jumpto-questions:hover {
+    /*border-color: rgba(255, 255, 255, 0.75) !important;*/
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        border-color: rgba(255, 255, 255, 0.75) !important;
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+
+#searchBar {
+    border: 2px solid #7d45ef;
+    color: #4308bb;
+    margin-top: 20px;
+}
+    
+.suggestedResults {
+        background: #efeafb;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.suggestions-list {
+    list-style: none;
+    
+    font-family: "Cerebri Sans";
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.suggestions-list span{
+    padding:10px;
+    border-bottom: 0px solid;
+    transition: color 0s ease-in-out, background-color 0s ease-in-out
+}
+
+.suggestions-list:hover {
+    background: #825be0;
+    border-radius: 10px;
+    color: white;
+}
+
+.search-bar-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.component-header-alternate-for-skills {
+    background: #e6edff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    box-shadow: inset 0 -1px #e3e8ee;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.keywords-row {
+    font-family: "Cerebri Sans";
+}
+
+.link-to-another-section {
+  cursor: pointer;
+}

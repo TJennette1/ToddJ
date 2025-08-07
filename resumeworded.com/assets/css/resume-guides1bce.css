@@ -1,0 +1,1304 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Medium.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Medium.ttf);
+  font-weight: 550;
+  font-style: normal;
+}
+
+
+#linkedin-top h1 {
+  font-weight: 550 !important;
+  font-family: "Cerebri Sans" !important;
+  letter-spacing: 0.5px !important;
+  font-size: 2em !important;
+}
+
+#linkedin-top h2 {
+    /* color: #f5f5f5; */
+    color: #d1e0f1;
+    font-size: 1em;
+    /* font-family: "Cerebri Sans"; */
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#product-title-above-title {
+  text-transform: uppercase;
+}
+
+.main-header-container {
+  text-align:center;
+  padding-left:0%;
+  padding-right:0%;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 60px !important;
+}
+
+.home-left {
+  padding-top:3em;
+}
+
+
+.nav-center-content {
+  text-align: center;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+
+.nav-center-content h1 {
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+  font-family: "Cerebri Sans";
+  letter-spacing: 0.5px;
+  color:#fff;
+  padding-bottom:15px;
+}
+
+
+.core-template-container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 45px;
+  max-width: 1600px;
+  -webkit-box-shadow: 0 2px 4px 0 rgb(50 50 93 / 10%);
+  box-shadow: 0 2px 4px 0 rgb(50 50 93 / 10%);
+}
+
+.template-section-details {
+  padding-bottom: 0px;
+}
+
+
+.template-section-details-wider {
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.core-template-container-left {
+  padding:20px;
+  /*display: inline-block;*/
+  vertical-align: top;
+  /*width: 57%;*/
+  display: block;
+}
+
+
+.side-by-side-left {
+   display: inline-block;
+  vertical-align: top;
+  width: 57%;
+}
+
+.core-template-container-right {
+  /*display: inline-block;*/
+  display: block;
+  vertical-align: top;
+  /*width: 42%;*/
+  margin-top:25px;
+  padding-top:25px;
+}
+
+.side-by-side-right {
+   display: inline-block;
+  vertical-align: top;
+  width: 42%;
+}
+
+.core-template-container-left h2 {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    text-align: left;
+    /* font-size: 26px; */
+    font-size: 1.2em;
+    
+    color: #1a1550;
+    letter-spacing: 1px;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+        padding-bottom: 35px;
+}
+
+.core-template-container-left p {
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: left;
+    /* font-size: 26px; */
+    /* font-size: 20px; */
+    font-size: 1em;
+    color: #484848;
+    color: #6f6d6d;
+    /* letter-spacing: 1px; */
+    font-family: "Cerebri Sans";
+    padding-bottom: 15px;
+    line-height: 1.7;
+    /*margin-bottom: 0em !important;*/
+    margin-bottom: 40px;
+}
+
+.core-template-container-left p a {
+    border-bottom: 1px dotted #62676c;
+}
+
+.full-width-template-container {
+    padding: 20px;
+}
+    
+  
+
+.full-width-template-container h2 {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    text-align: left;
+    /* font-size: 26px; */
+    font-size: 1.2em;
+    
+    color: #1a1550;
+    letter-spacing: 1px;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+        padding-bottom: 35px;
+}
+
+
+.core-template-container-left img {
+  width: 100%;
+  max-width: 950px;
+    /*-webkit-box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);*/
+        box-shadow: 0 0 15px 0 rgb(50 50 93 / 40%);
+        cursor: pointer;
+}
+
+
+.core-template-container-left img:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+.core-template-container-left a {
+  border-bottom: 0px;
+}
+
+
+.regular-full-width-text-container {
+  padding:25px;
+}
+
+.regular-full-width-text-container h2 {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    text-align: left;
+    /* font-size: 26px; */
+    font-size: 1.2em;
+    
+    color: #1a1550;
+    letter-spacing: 1px;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+        padding-bottom: 35px;
+}
+
+
+.regular-full-width-text-container p {
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: left;
+    /* font-size: 26px; */
+    /* font-size: 20px; */
+    font-size: 1em;
+    color: #484848;
+    color: #6f6d6d;
+    /* letter-spacing: 1px; */
+    font-family: "Cerebri Sans";
+    padding-bottom: 15px;
+    line-height: 1.7;
+    margin-bottom: 0em !important;
+}
+
+
+
+
+.inner-content-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    
+    /*padding: 5em 2em;*/
+    /*padding-left: 2em;
+    padding-right: 2em;*/
+
+    /*max-width: 1250px;*/
+    margin: 0 auto;
+    max-width: 2050px;
+}
+
+
+.inner-left-container {
+   width: 350px;
+    margin: 0 auto;
+    /*max-width: 1500px;*/
+}
+
+.inner-right-container {
+    min-height: 100%;
+    width: calc(100% - 350px);
+    margin-bottom: 0em;
+    position: relative;
+    
+    /*padding:25px;
+    padding-top: 50px;*/
+    background: white;
+}
+
+.title-section-right {
+  max-width: 400px;
+}
+
+.title-section-left h1 {
+    font-size: 16px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    color: #1a1550;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #1a155036;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-top: 25px;
+}
+
+
+.right-cta-box {
+    box-shadow: none;
+    /*border: 2px dotted #c3b1f7;*/
+    background-color: #f3f6fe;
+    padding: 45px;
+    font-family: "Cerebri Sans";
+    margin-top: -25px;
+}
+
+.right-cta-box h3 {
+    font-size: 1.1em;
+    color: #4a19e4;
+    letter-spacing: 0.6px;
+    font-weight: 550;
+    padding-bottom: 12px;
+    /*text-transform: uppercase;*/
+    /*font-size: 0.9em;*/
+    border-bottom: 1px solid blue;
+    padding-bottom: 15px;
+    margin-bottom: 18px;
+
+
+    font-size: 1em;
+}
+
+.right-cta-box p {
+  font-size: 0.95em;
+}
+
+
+.right-cta-box h4 {
+    font-size: 1em;
+    /*color: #1a1550;*/
+    letter-spacing: 0.2px;
+    font-weight: 550;
+    padding-bottom: 6px;
+}
+
+
+.sidebar-element {
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background: white;
+    min-height: 100px;
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 15px;
+    /*border: 1px solid #c3b0f6;*/
+    border-left: 5px solid #c3b0f6;
+}
+
+.sidebar-element h4 {
+    /*font-weight: 600;
+    text-transform: uppercase;*/
+
+        font-weight: 550;
+    text-transform: none;
+    font-size: 16px;
+    font-size: 0.9em;
+    /* color: #3426a4; */
+    color: #4110e3;
+    letter-spacing: 0.7px;
+    font-family: "Cerebri Sans";
+    padding-bottom: 15px;
+    line-height: 1.6;
+    text-align: left;
+    border-bottom: 2px solid #f5f3fd;
+    /* padding-bottom: 8px; */
+    padding-top: 10px;
+}
+
+.sidebar-element p {
+    color: #52575c;
+    font-size: 0.9em !important;
+    font-family: "Cerebri Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    /* color: #dee5ec !important; */
+    line-height: 1.7;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+    margin-top: 18px;
+}
+
+
+.home-right #zoomin-subtitle {
+  color:rgba(255,255,255,0.8);
+  font-family: "Cerebri Sans", sans-serif;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size:14px;
+  margin-top:10px;
+
+}
+
+
+.title-section-right svg {
+  width:95%;
+  max-width: 300px;
+}
+
+.template-section-details p {
+  font-weight: 300;
+  font-size: 0.95em;
+}
+
+
+.navbar-links {
+  position: sticky;
+  z-index: 1;
+  top: 50%;
+  right: 50px;
+  /*transform: translateY(-50%);*/
+
+   /*background-color: #12142e;*/
+    /*background-color: #3a3591;*/
+    /*top:60%;*/
+
+    top:70px;
+    /*padding: 30px;*/
+    /*right: 0;*/
+    /*border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;*/
+    border-radius: 15px;
+    
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+.navbar-links .nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar-links .nav-menu li {
+  position: relative;
+  min-width: 200px;
+  text-align: left;
+  font-size: 0.9em;
+  font-family: "Cerebri Sans", sans-serif;
+}
+.navbar-links .nav-menu li .dot {
+  display: block;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.navbar-links .nav-menu li .dot::before,
+.navbar-links .nav-menu li .dot::after {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 50%;  
+  top: 50%;  
+  transition: all .3s ease;
+}
+.navbar-links .nav-menu li .dot::before {
+  width: 5px;
+  height: 5px;
+  left: 0;
+  left: -15px;
+  border: 2px solid #181818;
+  transform: translateY(-50%);
+}
+.navbar-links .nav-menu li .dot::after {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #6767fa;
+  /*right: -5px;*/
+  left: -20px;
+  transform: translateY(-50%) scale(0);
+}
+.navbar-links .nav-menu li .dot.active::before,
+.navbar-links .nav-menu li:hover .dot::before {
+  background: #6767fa;
+  border-color: #6767fa;
+}
+.navbar-links .nav-menu li .dot.active::after,
+.navbar-links .nav-menu li:hover .dot::after {
+  transform: translateY(-50%) scale(1);  
+}
+
+.navbar-links .nav-menu li .dot.active {
+  background-color: #6767fa;
+}
+
+.navbar-links .nav-menu li .dot span {
+  display: inline-block;
+  opacity: 0.5;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: capitalize;
+  /*background-color: #6767fa;*/
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 30px;
+  transform: translateX(20px);
+  transition: all .3s ease;
+  color: #fff;
+}
+.navbar-links .nav-menu li .dot span::before {
+  display: block;
+  position: absolute;
+  content: '';
+  /*border-left: 7px solid #6767fa;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;*/
+  top: 50%;
+  transform: translate(7px, -50%);
+  right: 0;
+  transition: all .3s ease;
+}
+.navbar-links .nav-menu li .dot.active span,
+.navbar-links .nav-menu li:hover .dot span {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.inner-left-container {
+    min-width: 350px;
+    max-width: 350px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    padding: 15px;
+    background: #1a1450;
+}
+
+.skills-list-main {
+    text-align: center;
+    padding-top:15px;
+}
+
+.skills-list-main li {
+    /*color: #7b7b7b;*/
+    font-size: 1em;
+    font-family: "Cerebri Sans", sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    /* list-style: disc; */
+    width: 45%;
+    background: rgb(137 94 223 / 13%);
+    color: #7c44ef;
+    font-weight: 400;
+    margin: 8px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.skill-element {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.sidebar-element img {
+  max-width: 600px;
+}
+
+
+.download-resume-template-btn {
+      white-space: nowrap;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 35px;
+    /* border-top: 1px solid #ebecee; */
+    -webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background: #4f0fd1;
+    border-radius: 4px;
+    /* font-size: 15px; */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    cursor: pointer;
+        background: #1f5bff;
+        margin-right: 12px;
+        margin-bottom: 50px;
+}
+
+
+.download-resume-template-btn:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+
+.white-btn {
+    white-space: nowrap;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 35px;
+    border-top: 1px solid #ebecee;
+    -webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background: #fff;
+    border-radius: 4px;
+    /* font-size: 15px; */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-size: 15px;
+    color: #6772e5;
+    color: #1a1550;
+    color: #5a5a5a;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    cursor: pointer;
+    /*margin-bottom: 50px;*/
+    margin-bottom: 15px;
+}
+
+
+.white-btn:hover {
+    color: #4f0ed1;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+
+
+
+.multi-template-container-3-col {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.multi-template-container-3-col > .single-small-template-container {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    /*height: 400px;*/
+    padding:20px;
+    padding-top:0px;
+    padding-bottom:40px;
+    text-align: center;
+}
+
+.multi-template-container-3-col h3 {
+font-size: 0.9em;
+    font-weight: 600;
+    font-family: "Cerebri Sans";
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+.single-small-template-container img {
+  /*background-color: #fff4e6;*/
+  /*border: 1px solid #f76707;*/
+  
+  -webkit-box-shadow: 0 0 15px 0 rgb(50 50 93 / 40%);
+     box-shadow: 0 0 15px 0 rgb(50 50 93 / 40%);
+        cursor: pointer;
+}
+
+
+.single-small-template-container img:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+
+}
+
+.single-small-template-container a {
+  border-bottom: 0px;
+}
+
+.expand-template-btn {
+  white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-size: 15px;
+    color: #5a5a5a;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #f3f6fe;
+}
+
+.expand-template-btn:hover {
+     -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    background: #3f10d8;
+    color: #fff;
+}
+
+.slick-prev, .slick-next {
+    font-size: 3em;
+    border: 0px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    /*width: 20px;*/
+    /*height: 20px;*/
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    /*color: transparent;*/
+    /*border: none;*/
+    /*outline: none;*/
+    /*background: transparent;*/
+}
+
+.slick-next {
+    right: -25px;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-slide {
+  padding:20px;
+  text-align: center;
+}
+
+
+
+.right-small-jd-link-container {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    padding: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-right: 5%;
+}
+
+.right-small-jd-link-container li:first-of-type {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.right-small-jd-link-container li {
+    list-style: none;
+    background-color: #fafafc;
+    padding: 0px 15px;
+    font-family: "Cerebri Sans", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    border: 1px solid #e4e6ff;
+    font-weight: 400;
+    border-bottom: 1px solid #e4e6ff;
+}
+
+.big-arrow-container {
+    float: right;
+    margin-top: 12px;
+    font-size: 60px;
+    color: #e4e6ff;
+    margin-right: 15px;
+}
+
+.single-jd-link-container {
+    padding: 25px;
+}
+.template-image-container {
+  text-align: center;
+}
+.template-download-btn-container {
+  text-align: center;
+}
+
+.author-resume-guide {
+  color: #d1e0f1;
+    font-size: 1em;
+    /* font-family: "Cerebri Sans"; */
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    /*line-height: 2em;*/
+    margin-top:15px;
+
+}
+
+.individual_line_callout p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.individual_line_callout {
+  margin-bottom: 0px;
+}
+
+.sample-lines-container {
+    border: 4px solid #f3f6fe;
+}
+
+    .author-resume-guide-circle-img {
+    height: 80px;
+    width: 80px;
+    box-shadow: rgb(19 23 35 / 8%) -8px 14px 16px 0px;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.author-details-container {
+    display: inline-block;
+    vertical-align: top;    
+    text-align: left;
+    font-family: "Cerebri Sans",sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    padding-left: 15px;
+    letter-spacing: 0.2px;
+}
+
+.author-resume-guide {
+    text-align: left;
+}
+
+.author-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+    padding-top: 7px;
+}
+
+.contents-of-article {
+    padding-bottom:  30px;
+    padding-top: 0px;
+        background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.contents-title-absolute {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0px solid;
+    padding: 2px 18px;
+    font-family: "Cerebri Sans",sans-serif;
+    font-size: 17px;
+}
+
+.contents-of-article li {
+   font-family: "Cerebri Sans",sans-serif;
+    font-size: 17px;
+    color: #8980ff;
+    list-style: square;
+    font-weight: 550;
+}
+
+.contents-of-article li a {
+    border-bottom: 0px;
+}
+
+.contents-of-article-column p {
+    font-weight: 550;
+}
+
+.contents-of-article-column {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 400px;
+    width: 50%;
+    text-align: left !important;
+}
+
+
+.email-signup-embed-career-supplement {
+    background-color: white;
+    padding: 45px;
+    font-family: "Cerebri Sans";
+    margin: 0 auto;
+    width: 94%;
+    border-radius: 10px;
+    border-left: 5px solid #c3b0f6;
+    /*margin-bottom: 30px;*/
+    /*margin-top: 30px;*/
+}
+
+.email-signup-embed-career-supplement .main-optin-header {
+        color: #000000;
+    letter-spacing: -0.2px;
+    font-family: "Cerebri Sans";
+    margin-bottom: 0px;
+    line-height: 1.6;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.email-signup-embed-career-supplement .optin-subtitle {
+    color: #757575;
+    font-family: "Arial";
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 600px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.email-embed-form-container #email_modal {
+    color: #000;
+    border: 1px solid #dadbdd;
+    padding: 20px;
+    font-family: "Cerebri Sans",sans-serif !important;
+    background: #f9fbfe;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.email-embed-form-container #submit_modal {
+    border: 1px transparent;
+    border-radius: 5px;
+    background: #7b00ff;
+    margin: 0 auto;
+    line-height: 3.5;
+    display: inline-block;
+    font-family: "Cerebri Sans", sans-serif;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 17px;
+    padding: 1px 20px;
+    font-weight: 400;
+}
+
+
+.quote-testimonial-container {
+    padding: 40px;
+    background: #ffffd9;
+    margin-left: 30px;
+    font-size: 20px !important;
+    font-style: italic;
+    font-family: "Cerebri Sans", sans-serif !important;
+    margin-top: -10px;
+}
+
+
+.section-breadcrumb {
+  margin-bottom: 10px;
+}
+.breadcrumb {
+display: block;
+padding: 0;
+margin: 0;
+background: none;
+border-radius: 0;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.breadcrumb-item {
+  display: inline;
+  padding: 5px 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: '>';
+  padding-right: 23px;
+  padding-left: 23px;
+  color: $text-color;
+}
+
+
+.section-breadcrumb {
+    margin-bottom: 10px;
+    font-family: 'Cerebri Sans',sans-serif;
+}
+
+.home-right svg {
+    margin-right: 1em;
+}
+
+
+@media (max-width: 800px) {
+    .email-signup-embed-career-supplement .optin-subtitle {
+        display: block;
+        width: 100%;
+    }
+
+    .email-signup-embed-career-supplement .quote-testimonial-container {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+  .home-right {
+    width: 90%;
+    padding: 0px;
+    margin:0 auto;
+  }
+
+  .home-left {
+    padding-left: 20px;
+    width: 90%;
+  }
+
+
+
+  #linkedin-top h1 {
+    font-weight: 550 !important;
+    font-family: "Cerebri Sans" !important;
+    letter-spacing: 0.5px !important;
+    font-size: 1.5em !important;
+  }
+
+  #linkedin-top h2 {
+    font-size: 0.9em;
+  }
+
+
+
+
+.sidebar-element img {
+  max-width: 100%;
+}
+
+.right-small-jd-link-container {
+  width: 100%;
+  text-align: left;
+}
+
+}
+
+@media (max-width: 700px) {
+
+  .core-template-container {
+    padding: 10px; 
+  }
+
+  .right-cta-box {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .download-resume-template-btn {
+    margin-bottom: 15px;
+  }
+
+  .skills-list-main li {
+    width: 100%;
+  }
+
+  .single-small-template-container {
+    /*min-width: 100%;*/
+  }
+
+  .slick-slide {
+    padding:5px;
+  }
+
+  .full-width-template-container {
+    padding:5px;
+  }
+
+  .multi-template-container-3-col h3 {
+    font-size: 0.75em;
+  }
+
+  .expand-template-btn {
+    display: none;
+  }
+
+
+.contents-of-article-column {
+    display: block;
+    width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .author-resume-guide {
+        margin-bottom: 25px;
+    }
+}
+
+
+.how-to-section {
+    /*padding: 20px;*/
+    margin-bottom: 20px;
+    background: white;
+    /*border-radius: 20px;*/
+    border: 2px solid #e6edff;
+}
+
+.how-to-step-contents-text {
+    width: 75%;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.how-to-step-contents-image {
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.how-to-step-contents-image img {
+    max-width: 100%;
+}
+
+.how-to-step-title {
+    padding-bottom: 15px;   
+    padding-top: 25px;  
+}
+
+.how-to-section-title {
+    padding: 15px;
+    padding-left: 45px;
+    background: #fff;
+    /*border-top-left-radius: 20px;*/
+    /*border-top-right-radius: 20px;*/
+    position: relative;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+
+.how-to-section-title:hover {
+  background:#e8edff;
+  border: 3px solid #ccdbf1;
+}
+
+.how-to-section-title h3 {
+    font-size: 17px;
+    color: #1a1550;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+}
+
+.how-to-step-title h4 {
+    font-size: 17px;
+    color: #1a1550;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 550;
+}
+
+.how-to-step-contents-text p {
+    /*font-family: "Cerebri Sans";*/
+        color: #52575c;
+        font-size: 16px;
+        font-family: "Cerebri Sans", sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        line-height: 1.6;
+}
+
+.how-to-step-contents-text quote {
+    font-style: italic;
+    display: inline-block;
+    padding: 15px;
+    background: #f3f7ff;
+}
+
+.how-to-steps-container {
+    /*padding: 25px;*/
+}
+
+.how-to-step {
+       padding: 15px 40px;
+        padding-top: 15px;
+        /* padding-bottom: 15px; */
+        /* border: 1px solid #eaebfa; */
+        border-radius: 5px;
+        border: 1px solid #e3e8ee;
+        /*-webkit-box-shadow: 0 2px 4px 0 rgb(50 50 93 / 10%);*/
+        /*box-shadow: 0 2px 4px 0 rgb(50 50 93 / 10%);*/
+        /*margin-bottom: 20px;*/
+}
+
+
+.how-to-step-right-icon {
+        font-size: 24px;
+        color: #b7b7b7;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+}
+
+
+
+.how-to-main-counter-number {
+vertical-align: top;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+-webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+font-weight: 700;
+font-family: "Cerebri Sans", sans-serif;
+font-size: 0.9rem;
+letter-spacing: 0.2px;
+color: #6f6d6d;
+width: 40px;
+text-align: center;
+line-height: 40px;
+    /*position: absolute;*/
+left: 0;
+top: 0;
+margin-top: -15px;
+margin-left: -15px;
+position: absolute;
+background: white;
+/*display: inline-block;*/
+
+
+}
+
+.how-to-step-tip {
+    background: #f8f4ff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: #4300b4;
+    /* font-weight: 550; */
+    font-family: 'Cerebri Sans',sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+}
+
+.how-to-section-full {
+width: 90%;
+margin: 0 auto;
+}
+
+.how-to-section-full .core-template-container-left p {
+margin-bottom: 10px;
+}
+
+.hide-this-section-how-to {
+display: none;
+}
+@media (max-width: 1000px) {
+.inner-content-container {
+  display: block;
+}
+
+.inner-left-container {
+    /*max-height: none;
+    width: 100%;
+    display: block;
+    overflow: auto;*/
+    
+}
+.inner-right-container {
+    max-height: none;
+    width: 100%;
+    display: block;
+    
+}
+
+.inner-left-container {
+  display: none;
+}
+
+.how-to-step-contents-text {
+    width:  100%;
+    text-align: left;
+}
+.how-to-step-contents-image {
+    width:  100%;
+}
+
+
+}
+
+@media (max-width: 1500px) {
+  .core-template-container-right {
+    display: block;
+    width: 100%;
+  }
+
+  .core-template-container-left {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+

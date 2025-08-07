@@ -1,0 +1,960 @@
+#nav {
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgb(11 7 110 / 4%);
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 0px solid;
+}
+
+#rw-logo a {
+    color: #1a1450;
+    font-family: "Cerebri Sans", sans-serif !important;
+    font-size: 11pt;
+}
+
+
+   #nav > ul > li > a {
+    color: #1a1450 !important;
+}
+
+
+#linkedin-top {
+    /*width: 100%;
+    background: linear-gradient(to bottom,#527ceb ,#6c62fe );*/
+}
+
+.main-content-container {
+    /* background: linear-gradient(to bottom,#f9fbfc ,#eeeefb ); */
+    /* background: #f9fbfc; */
+    background: #e6e7fb;
+    font-family: "Cerebri Sans", sans-serif;
+    /* border-top: 7px dotted #d8d1fe; */
+    padding-bottom: 30px;
+}
+
+.inner-content-container {
+    max-width: 1250px;
+}
+
+.inner-right-container {
+    width: 69%;
+    background: none;
+}
+
+.inner-left-container {
+    width: 29%;
+}
+
+.smr-main-section {
+    background: #fff;
+}
+
+.template-section-details h1 {
+        font-size: 16px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    color: #1a1550;
+    /*margin-bottom: 35px;*/
+    border-bottom: 1px solid #1a155036;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-top: 25px;
+}
+
+.contents-of-article {
+    margin-top: 0px;
+}
+
+.core-template-container {
+    box-shadow: 0px;
+    box-shadow: none;
+    padding: 0px;
+}
+
+.template-section-details-wider {
+    border-top: 50px solid #e6e7fb;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-top: 3em;
+    /*width: 87%;*/
+
+}
+
+.core-template-container-left {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.inner-left-container {
+    background: #e6e7fb;
+}
+
+.core-template-container {
+    border-radius: 0px;
+}
+
+.core-template-container-left h2 {
+    font-size: 1.1em;
+}
+
+.core-template-container-left p {
+    font-weight: 300;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+.core-template-container-left img {
+    margin-top: 25px;
+}
+
+.download-resume-template-btn, .white-btn {
+    font-size: 12px;
+    margin-bottom: 45px;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+
+.right-cta-box {
+    padding-bottom: 20px;
+}
+
+.regular-full-width-text-container {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.svg-container-sidebar {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.navbar-links .nav-menu li {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.navbar-links .nav-menu li .dot span {
+    padding: 0px 15px;
+}
+
+.nav-center-content h1 {
+    color: #6c63fe;
+    padding-bottom: 0px;
+}
+.navbar-links .nav-menu li .dot span {
+        color: #2b2950;
+    font-size: 16px;
+    opacity: 1;
+    font-weight: 300;
+}
+
+.navbar-links .nav-menu li .dot.active span {
+    color: #fff;
+    font-weight: 550;
+}
+.navbar-links .nav-menu li  a {
+    border-bottom: 0px;
+    line-height: 1.5;
+}
+
+.navbar-links .nav-menu li .dot::before {
+    display: none;
+}
+
+
+#linkedin-top {
+    background-image: radial-gradient(at 80% 20%, rgb(70 63 176), #1a0f51);
+}
+
+.nav-menu span {
+    color: #6c63fe;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+.upload-resume-container-iframe {
+    background: #e6e7fb;
+}
+
+
+.core-template-container-left blockquote {
+        border-left: solid 0px #6c8cea;
+    font-size: 0.9em;
+    font-family: 'Cerebri Sans', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.95em;
+    color: #6f6d6d;
+}
+
+.resume-summary-example-img-container {
+    height: 280px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#summary_section img {
+    max-width: 400px;
+}
+
+.resume-summary-example-img-container-with-expand {
+    text-align: center;
+}
+
+.resume-summary-example-img-container-with-expand .expand-template-btn {
+    margin-top: 15px;
+        margin-bottom: 30px;
+}
+
+
+.resume-summary-example {
+    border: 1px solid #000;
+    border-radius: 0;
+    box-shadow: 8px 8px 0 0 #d3cbfb, 8px 8px 0 1px #000;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-size: 17px;
+    padding: 25px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+}
+    
+.resume-summary-example-title  {
+       font-size: 14px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    color: #1a1550;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #1a155036;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.faq-question h3 {
+/*    font-family: "Cerebri Sans", sans-serif;
+    font-weight: 600;
+    color: #191350;
+    font-size: 18px;
+    padding-bottom: 15px;*/
+
+    font-size: 18px;
+    color: #1a1550;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+}
+
+.faq-answer p, .faq-answer li {
+    font-size: 16px;
+    font-size: 17px;
+    font-family: 'Cerebri Sans', sans-serif;
+    font-weight: 300;
+    /*color: #63618c;*/
+    padding: 0px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+    
+.faq-answer li {
+    list-style: disc;
+    margin-bottom: 30px;
+}
+
+.faq-answer ul {
+    margin-bottom: 0px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.frequently-asked-questions-container {
+    margin-bottom: 30px;
+        /*margin-bottom: 20px;*/
+    background: white;
+    border: 2px solid #e6edff;
+}
+
+
+.faq-question {
+        padding: 25px 35px;
+    /*padding-left: 25px;*/
+    background: #fff;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+    position: relative;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-bottom: 3px solid #e6edff;
+}
+
+
+
+.faq-question:hover {
+  background:#e8edff;
+  border: 3px solid #ccdbf1;
+}
+
+
+
+.faq-answer {
+        /*padding: 15px 25px;*/
+        padding: 25px 35px;
+    /*padding-top: 15px;*/
+    /* padding-bottom: 15px; */
+    /* border: 1px solid #eaebfa; */
+    border-radius: 5px;
+    font-size: 17px;
+    /*border: 1px solid #e3e8ee;*/
+}
+
+
+.faq-right-icon {
+    font-size: 24px;
+    color: #b7b7b7;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.faq-question-right-icon {
+    vertical-align: top;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    font-weight: 700;
+    font-family: "Cerebri Sans", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+    color: #6f6d6d;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    margin-top: -15px;
+    margin-left: -15px;
+    position: absolute;
+    background: white;
+}
+
+#faqs_section {
+    padding-bottom: 40px;
+}
+.faq-answer q,.faq-answer blockquote {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.template-section-details.intro-paragraph ul {
+    list-style: disc;
+    margin-inline-start: 20px;
+}
+
+.template-section-details.intro-paragraph li {
+    font-weight: 300;
+    font-size: 0.95em;
+    color: #6f6d6d;
+}
+
+
+.skills-box-per-template {
+    margin-top: 50px;
+}
+
+.in-brackets-smaller-size-skill {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+    .skills-box-per-template-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+.flex-col-in-skill-box {
+    flex: 1 0 30%;
+    margin: 0px;
+    line-height: 1.5;
+    padding: 5px;
+    list-style: disc;
+    display: list-item;  
+        font-size: 17px;
+}
+
+.white-header-above-sample-other-templates {
+    background: white;
+    padding: 30px;
+}
+
+.white-header-above-sample-other-templates h2 {
+    color: #000000;
+    letter-spacing: 0.2px;
+    font-family: "Cerebri Sans";
+    margin-bottom: 0px;
+    line-height: 1.6;
+    font-size: 24px;
+    font-weight: 600;
+        font-size: 1.2em;
+    color: #1a1550;
+    letter-spacing: 1px;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+}
+
+.this-similar-category-templates-container {
+        padding: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 15px;
+    /* border: 1px solid #c3b0f6; */
+    border-left: 5px solid #c3b0f6;
+    padding-bottom: 0px;
+}
+
+.other-templates-big-container {
+    padding: 40px;
+    padding-top: 0px;
+}
+
+
+.other-templates-header-small {
+        color: #4a19e4;
+    letter-spacing: 0.6px;
+    font-weight: 550;
+    padding-bottom: 12px;
+    /* text-transform: uppercase; */
+    /* font-size: 0.9em; */
+    border-bottom: 1px solid blue;
+    padding-bottom: 15px;
+    margin-bottom: 18px;
+    font-size: 1em;
+            padding-top: 35px;
+}
+
+.template-title-in-other-templates {
+        font-weight: 550;
+    text-transform: none;
+    font-size: 16px;
+    font-size: 0.9em;
+    /* color: #3426a4; */
+    color: #4110e3;
+    letter-spacing: 0.7px;
+    font-family: "Cerebri Sans";
+    padding-bottom: 15px;
+    line-height: 1.6;
+    text-align: left;
+    border-bottom: 2px solid #f5f3fd;
+    /* padding-bottom: 8px; */
+    padding-top: 10px;
+        margin-bottom: 20px;
+}
+
+.single-small-template-container img {
+        /*border: 1px solid #828282;
+    border-radius: 0;
+    box-shadow: 8px 8px 0 0 #eae2ff, 8px 8px 0 1px #828282;*/
+        box-shadow: 0 0 15px 0 rgb(50 50 93 / 16%);
+    /*border: 1px solid #80808052;*/
+}
+
+.link-to-full-guide-other {
+    background: white;
+    border-left: 5px solid #c3b0f6;
+    margin-left: -15px;
+        margin-right: -15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* font-weight: 550; */
+    /* color: #4110e3; */
+    /* font-family: "Cerebri Sans"; */
+    letter-spacing: 0.3px;
+    font-size: 17px; 
+    margin-bottom: 15px;
+}
+
+
+
+.template-image-container {
+    position: relative;
+}
+.template-image-container-locked-part-inner {
+
+    height: 50%;
+    background: #7266ffba;
+    color: white;
+    bottom: 0;
+    position: inherit;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.template-image-container-locked-part {
+    position: absolute;
+    width: 100%;
+    background: green;
+    z-index: 1;
+    height: 70%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 1) 75%);
+    background-size: cover;
+}
+
+
+.header-for-new-resume-single-pages {
+/*    min-height: 300px;*/
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-left:25px;
+}
+
+.header-for-new-resume-single-pages h1 {
+   color: #fff;
+    font-family: "Cerebri Sans";
+    line-height: 1.6;
+    text-align: left;
+    text-transform: none;
+    font-weight: 550;
+    letter-spacing: -0.4px;
+    font-size: 1.8em;    
+    padding-top:10px;
+}
+
+.header-for-new-resume-single-pages .section-breadcrumb {
+    color: #c6c3db;
+    font-size: 16px;
+    margin-top:76px;
+}
+
+                                    .fancybox-image {
+                                        background: white !important;
+                                    }
+                                    
+
+                                        .spinner-for-gdrive-pdf {
+                                          width: 50px;
+                                          height: 50px;
+                                          margin: auto;
+                                          border: 5px solid transparent;
+                                          border-top-color: #000;
+                                          border-radius: 50%;
+                                          animation: spin 1s linear infinite;
+                                        }
+
+                                        @keyframes spin {
+                                          0% { transform: rotate(0deg); }
+                                          100% { transform: rotate(360deg); }
+                                        }
+
+                                        .toggle {
+                                            margin-left: 0px;
+                                            color: #8a80ff;
+                                            cursor: pointer;
+                                            background: white;
+                                            /* border: 1px solid #6c63fe52; */
+                                            padding: 0px 10px;
+                                            font-size: 15px;
+                                            font-weight: 300;
+                                            letter-spacing: -0.5px;
+                                            font-style: italic;
+                                            margin-top: -25px;
+                                            border-bottom: 1px solid;
+                                            margin-bottom: 15px;
+                                            background: #f6f6ff;
+                                            
+
+
+                                        }
+
+                                        .core-template-container-left img {
+                                            margin-top: 0px;
+                                        }
+
+                                        .template-image-container-top-bar {
+                                                margin-top: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: left;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    /* display: inline-block; */
+    box-shadow: inset 4px -4px 6px 0px rgb(50 50 93 / 13%);
+                                        }
+                                        .tab-elemnt-template-container {
+                                            display: inline-block;
+                                            padding: 15px;
+                                            padding-left: 30px;
+                                            padding-right: 30px;
+                                            /* border-right: 1px solid gray; */
+                                            cursor: pointer;
+                                            background: #e6edff;
+                                            margin-right: 15px;
+                                            border-top-left-radius: 8px;
+                                            border-top-right-radius: 8px;
+                                            font-weight: 600;
+                                            text-transform: uppercase;
+                                            /* font-size: 16px; */
+                                            font-size: 0.7em;
+                                            color: #1d2266;
+                                            letter-spacing: 0.7px;
+                                            font-family: "Cerebri Sans", sans-serif;
+                                            /* padding-bottom: 15px; */
+                                            line-height: 1.6;
+                                            
+                                            border: 1px solid #bdb5ff;
+                                            border-bottom: 0px;
+
+                                        }
+                                        .tab-elemnt-template-container.active {
+                                            background: #fff;
+                                            color: #4f0ed1 !important;
+                                        }
+    
+
+ .sk-sample-resume-container {
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0px 0px 10px #ccc;
+        font-family: "Cerebri Sans", sans-serif;
+        letter-spacing: -0.2px;
+        width:92%;
+        border-top: 4px solid #45818e;
+        border-left: 4px solid transparent;
+        margin:0 auto;
+
+        margin-bottom: 50px;
+    }
+
+    .sk-sample-resume-name {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #45818e;
+
+    }
+
+    .sk-sample-resume-job-title-header {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .sk-sample-resume-heading {
+        font-size: 14px;
+        color: #45818e;  
+        margin-top: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #d8e4e7;
+        margin-bottom: 10px;
+    }
+
+    .sk-sample-resume-header {
+        font-size: 14px;
+        letter-spacing: -0.4px;
+    }
+
+     .sk-sample-resume-role {
+            font-size: 15px;
+    letter-spacing: -0.4px;
+    line-height: 1;
+    margin-bottom: 7px;
+    }
+    .sk-sample-resume-content {
+    display: block;
+    position: relative;
+    padding-left: 30px;  /* Space for the bullet point */
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 1.5;
+}
+
+.sk-sample-resume-content:before {
+    content: "\2022";  /* Unicode bullet point */
+    position: absolute;
+    left: 0;
+    color: #4a90e2;  /* Same color as headings for a unified look */
+}
+
+
+    .sk-sample-resume-contact-details {
+            font-size: 15px;
+        letter-spacing: -0.4px;
+        line-height: 1;
+    }
+
+    .sk-sample-resume-single-work-exp-container {
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    .sk-sample-resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sk-sample-resume-job-title-and-location {
+    display: flex;
+    align-items: baseline;
+    font-size: 15px;
+}
+
+.sk-sample-resume-job-title {
+    font-weight: 550;
+
+}
+
+.sk-sample-resume-date {
+    margin-left: auto;
+    font-style: italic;
+}
+
+.sk-sample-resume-skill-group-container {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+}
+.sk-sample-resume-skill-group {
+    font-weight: 550;
+}
+
+
+
+.sk_resume_template_buttons, .sk_resume_template_navigation {
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.choose-template-title {
+font-size: 15px;
+    font-family: "Cerebri Sans", sans-serif;
+    padding-top: 20px;
+    line-height: 1.6;
+    color: #564ff2;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+   
+
+.sk_resume_template_buttons {
+    border-left: 3px solid #c3c5fc;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+    
+    
+.playbook-header p {
+    line-height: 1.5;
+}
+
+.sk_resume_template_buttons button,
+.sk_resume_template_navigation button {
+    background-color: #ffffff;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+/*    letter-spacing: -0.2px;*/
+    cursor: pointer;
+    font-family: "Source Sans Pro", sans-serif;
+/*    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);*/
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+}
+
+
+.sk_resume_template_current-name {
+    font-size: 17px;
+    font-family: "Cerebri Sans", sans-serif;
+    font-weight: 550;
+    letter-spacing: -0.4px;
+    color: #3f34e9;
+}
+
+
+.sk_resume_template_buttons button:hover,
+.sk_resume_template_navigation button:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+        transform: translateY(-3px) scale(1.02);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.3);
+
+}
+
+.sk_resume_template_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+#resume2 .sk-sample-resume-name, #resume2 .sk-sample-resume-heading, #resume2 .sk-sample-resume-content:before {
+    color:#af0f00;
+}
+#resume2 {
+    border-left:4px solid #af0f00;   
+    border-top:4px solid transparent; 
+}
+
+#resume3 .sk-sample-resume-name, #resume3 .sk-sample-resume-heading, #resume3 .sk-sample-resume-content:before {
+    color:#170bd7;
+}
+
+#resume3 {
+    border-top:4px solid #170bd7;   
+    border-left: 4px solid transparent
+}
+
+#resume4 .sk-sample-resume-name, #resume4 .sk-sample-resume-heading, #resume4 .sk-sample-resume-content:before {
+    color:#269e6e;
+}
+
+#resume4 {
+    border-top:4px solid #269e6e;   
+    border-left: 4px solid transparent
+}
+.highlight-in-template {
+    background: #f1f1ff;
+    color: #8644ff;
+        /*background: #e5f2ff;
+    color: #2b7296;*/
+}
+.highlight-in-template {
+  position: relative;
+  cursor: help;
+}
+
+.highlight-in-template::before,
+.highlight-in-template::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.highlight-in-template::before {
+  border: 6px solid transparent;
+  border-bottom-color: #333;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -6px;
+}
+
+.highlight-in-template::after {
+/*  width: 220px;*/
+  bottom: 120%;
+  left: 50%;
+  margin-left: -110px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.highlight-in-template:hover::before,
+.highlight-in-template:hover::after {
+  display: block;
+}
+
+.highlight-in-template:hover::after {
+  content: attr(data-tooltip);
+}
+
+.nav-table-of-contents li {
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.toc-subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: #6b62fd;
+    border-bottom: 1px solid;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+    
+
+
+@media (max-width: 870px) {
+    .main-nav-container {
+        display: none;
+    }
+    .sk-sample-resume-container {
+        text-align: left;
+    }
+    .sk-sample-resume-container {
+        padding:20px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .inner-right-container {
+        width: 100%;
+    }
+    #rw-logo a {
+        color: white;
+    }
+    .header-for-new-resume-single-pages h1 {
+        font-size: 27px;
+    }
+
+    .author-resume-guide-circle-img {
+        width: 50px;
+    }
+
+    .author-details-container {
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+}

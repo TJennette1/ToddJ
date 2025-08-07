@@ -1,0 +1,148 @@
+.loginbar .loginlabel {
+  font-size: 1.1rem;
+
+  float: left;
+  /*padding: 3% 5% 0% 4%;*/
+  margin-left: 1em;
+  padding-bottom:10px;
+  /*padding-left: 2em;*/
+}
+
+.loginbar input {
+    
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  /*padding-right: 2em !important;*/
+
+}
+
+.loginbar {
+/*  margin-right: 2em;
+  padding-right: 2em;*/
+}
+
+.loginbar input::-webkit-input-placeholder {
+  color: #d2d7dc !important;
+  opacity: 1;
+}
+.loginbar input::-moz-placeholder {
+  color: #d2d7dc !important;
+  opacity: 1;
+}
+.loginbar input:-ms-input-placeholder {
+  color: #d2d7dc !important;
+  opacity: 1;
+}
+
+.loginbar input:hover {
+  border-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #fff !important;
+}
+
+
+#request-demo-buttona {
+    /*border: 1px solid;*/
+    border-radius: 5px;
+    background: #17af7d;
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 30px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+      /*font-weight: 400;*/
+  font-size: 1em;
+  padding-bottom: 15px;
+  letter-spacing: 0.7px;
+  /*margin-left: 20px;*/
+  margin-right: 20px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+    font-family: "Cerebri Sans";
+    margin-top:3em;
+}
+#request-demo-buttona:hover {
+    border-color: rgba(255, 255, 255, 0.75) !important;
+    background: #19cf86;
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+
+.login-via-email-button {
+    /*border: 1px solid;*/
+    border: 0px solid;
+    border-radius: 5px;
+    /*background: rgba(0, 0, 0, 0.15);*/
+    background: rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 40px;
+    padding-top: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+      /*font-weight: 400;*/
+  font-size: 1em;
+  padding-bottom: 12px;
+  letter-spacing: 0.7px;
+  background: rgba(193, 192, 192, 0.15);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+    font-family: "Cerebri Sans";
+    width: 230px;
+    /*text-transform: uppercase;;*/
+    /*text-shadow: 0 1px 3px rgba(36,180,126,.4);*/
+}
+
+
+.login-via-email-button:hover {
+    /*border-color: rgba(255, 255, 255, 0.75) !important;*/
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        border-color: rgba(255, 255, 255, 0.75) !important;
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+#hero p {
+  font-size: 1em !important;
+}
+
+#lost_password_message {
+  color: #000;
+}
+
+.cd-user-modal-container .cd-switcher a.selected {
+    background: #FFF !important;
+    background: #fbfbfb !important;
+    color: #000 !important;
+}
+
+
+.cd-user-modal-container .cd-switcher a {
+    
+    color: #809191 !important;
+}
+
+#registration-form a {
+  color: #52575c ;
+  border-bottom: dotted 1px #62676c;
+}
+
+@media screen and (max-width: 710px) {
+
+.modal-left {
+    display: none;
+}
+
+.modal-right {
+    display: inline-block;
+    width: 100%;
+}
+
+
+}
